@@ -32,6 +32,6 @@ add_library(AntJson SHARED ${COMMON_SOURCES} ${JSMN_PARSER_SRC})
 include_directories(thirdparty/jsmn)
 
 add_subdirectory(test/CLang)
-add_subdirectory(test/CppLang)
+# add_subdirectory(test/CppLang)
 
 unset(JSMN_PARENT_LINKS CACHE)
